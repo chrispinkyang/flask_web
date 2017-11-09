@@ -1,0 +1,12 @@
+{% if actor%}
+<h2>Actor_Id:</h2>
+<h3>{{actor.actor_id}}</h3>
+<h2>First_Name:</h2>
+<h3>{{actor.first_name}}</h3>
+<h2>Last_Name:</h2>
+<h3>{{actor.last_name}}</h3>
+<h2>Last_Update</h2>
+<h3>{{actor.last_update}}</h3>
+{% else %}
+<h2>Checking Failed</h2>
+{% endif %}
