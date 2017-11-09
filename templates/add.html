@@ -1,0 +1,10 @@
+<h2>Please Complete the From</h2>
+<form action="/add" method="POST">
+	Actor_Id:<input type="text" name="actor_id"><br>
+	First_Name:<input type="text" name="first_name"><br>
+	Last_Name:<input type="text" name="last_name"><br>
+	<input type="submit" name="add">
+</form>
+{% if success %}
+<h2>success!</h2>
+{% endif %}

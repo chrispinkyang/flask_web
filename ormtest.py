@@ -18,7 +18,7 @@ class actor(db.Model):
 		self.actor_id = actor_id
 		self.first_name = first_name
 		self.last_name = last_name
-		self.last_name = last_update
+		self.last_update = last_update
 
 	def __repr__(self):
 		return 'Actor_id:{} \nFirst_name:{} \nLast_name:{} \nLast_update:{}'.format(self.actor_id,self.first_name,self.last_name,self.last_update)
